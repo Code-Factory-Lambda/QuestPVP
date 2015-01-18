@@ -1,3 +1,16 @@
 name: unserplugin
 main: com.gmail.codefactory.Main
 version: indev 0.1
+
+commands:
+   explodieren:
+      description: Explosion erzeugen
+      usage: /explodieren
+   neuerTeleport:
+      description: Neuen Schild-Teleport erstellen
+      permission: QuestPVP.teleport
+      usage: /neuerTeleport <TeleportName>
+      
+permissions:
+    QuestPVP.teleport:
+    default: op
